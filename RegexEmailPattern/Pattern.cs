@@ -10,7 +10,7 @@ namespace RegexEmailPattern
     internal class Pattern
     {
 
-        public static string EmailPattern = "^[a-z0-9]+$";
+        public static string EmailPattern = "^[a-z0-9]+[@][a-z]+$";
 
         public static bool ValidateEmail(string email)
         {
