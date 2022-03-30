@@ -8,7 +8,7 @@ namespace RegexEmailPattern
         {
             Console.WriteLine("Welcome to the Regex Email Pattern Problem.\n");
 
-            Console.Write("Enter all mandatory parts and 1st optional part of the email: ");
+            Console.Write("Enter email: ");
             string email = Console.ReadLine();
             Console.WriteLine($"\nThe entered input i.e. {email} is " + Pattern.ValidateEmail(email));
         }
